@@ -11,10 +11,42 @@ const other = {
   type: 'group',
   children: [
     {
-      id: 'sample-page',
-      title: 'Sample Page',
+      id: 'Purchase',
+      title: 'Purchase',
       type: 'item',
-      url: '/sample-page',
+      url: '/Purchase',
+      icon: icons.IconBrandChrome,
+      breadcrumbs: false
+    },
+    {
+      id: 'Inventory',
+      title: 'Inventory',
+      type: 'item',
+      url: '/Inventory',
+      icon: icons.IconBrandChrome,
+      breadcrumbs: false
+    },
+    {
+      id: 'Sale',
+      title: 'Sale',
+      type: 'item',
+      url: '/Sale',
+      icon: icons.IconBrandChrome,
+      breadcrumbs: false
+    },
+    {
+      id: 'Accounts',
+      title: 'Accounts',
+      type: 'item',
+      url: '/Accounts',
+      icon: icons.IconBrandChrome,
+      breadcrumbs: false
+    },
+    {
+      id: 'Reports',
+      title: 'Reports',
+      type: 'item',
+      url: '/Reports',
       icon: icons.IconBrandChrome,
       breadcrumbs: false
     },

@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import { memo } from 'react';
 
 // material-ui
-import { useTheme } from '@mui/material/styles';
 import Avatar from '@mui/material/Avatar';
 import Box from '@mui/material/Box';
 import Card from '@mui/material/Card';
@@ -12,6 +11,7 @@ import List from '@mui/material/List';
 import ListItem from '@mui/material/ListItem';
 import ListItemAvatar from '@mui/material/ListItemAvatar';
 import ListItemText from '@mui/material/ListItemText';
+import { useTheme } from '@mui/material/styles';
 import Typography from '@mui/material/Typography';
 
 // assets
